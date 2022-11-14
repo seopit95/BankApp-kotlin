@@ -19,7 +19,6 @@ kotlin과 Android Studio를 활용한 폰뱅킹 Application
 - Action bar를 숨기고 Tool bar를 사용
 - ViewPager 사용
 
-
 ![backRecyclerView](https://user-images.githubusercontent.com/115531849/201671012-eb49395e-b8d4-49ee-af57-846c89ce6047.gif)
 - RecyclerView로 출금한 내역들을 표시
 - ItemView는 CardView를 사용
@@ -27,8 +26,7 @@ kotlin과 Android Studio를 활용한 폰뱅킹 Application
 - setOnClickListener로 ItemView를 Click하면 은행과 해당은행의 국적을 Toast메세지로 발생
 - setOnLongClickListener로 ItemView를 길게 누르면 해당 ItemView는 삭제됨
 
-
-![banketc](https://user-images.githubusercontent.com/115531849/201670937-3709e489-4a28-494b-911c-2d9ef784b78d.gif)
+![bankPay](https://user-images.githubusercontent.com/115531849/201670965-0d79cd0e-a505-4941-87e3-935260280c72.gif)
 - 스마트폰 Pay를 구현
 - PasswordActivity를 만들어 비밀번호가 알맞게 입력되면 Parcalable Intent를 사용
 - 비밀번호는 임의로 123456을 설정
@@ -36,8 +34,7 @@ kotlin과 Android Studio를 활용한 폰뱅킹 Application
 - 비밀번호가 알맞게 되어 PasswordActivity로 intent되면 10초부터 카운트를 설정
 - 카운트가 0초가 될 경우 다시 이전 Layout인 FragmentThree로 돌아감
 
-
-![bankPay](https://user-images.githubusercontent.com/115531849/201670965-0d79cd0e-a505-4941-87e3-935260280c72.gif)
+![banketc](https://user-images.githubusercontent.com/115531849/201670937-3709e489-4a28-494b-911c-2d9ef784b78d.gif)
 - Toggle 버튼을 사용하여 간단하게 메뉴표시
 - Nevigator 사용
 - 메뉴 클릭시 Toast 메시지 표출
