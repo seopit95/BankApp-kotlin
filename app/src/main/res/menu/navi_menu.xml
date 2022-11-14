@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemInfo"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="내 계좌 관리" />
+    <item
+        android:id="@+id/itemloan"
+        android:icon="@drawable/ic_money_24"
+        android:title="대출상담" />
+    <item
+        android:id="@+id/itemManager"
+        android:icon="@drawable/storefront_24"
+        android:title="상품관리" />
+    <item
+        android:id="@+id/itemBonus"
+        android:icon="@drawable/good_24"
+        android:title="혜택"/>
+    <item
+        android:id="@+id/itemCustom"
+        android:icon="@drawable/ic_call_24"
+        android:title="고객센터"/>
+</menu>
