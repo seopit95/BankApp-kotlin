@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var twoFragment: TwoFragment
     lateinit var threeFragment: ThreeFragment
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
@@ -81,7 +80,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        //이벤트가 토글버튼에서 발생하면
         if(toggle.onOptionsItemSelected(item)){
             return true
         }
