@@ -81,11 +81,6 @@ class CustomDialog(val context: Context, val fragmentTwoBinding: FragmentTwoBind
             }
             (context as MainActivity).twoFragment.refreshRecyclerViewAdd(dataVO)
             dialog.dismiss()
-
-
         }
     }
-
-
-
 }

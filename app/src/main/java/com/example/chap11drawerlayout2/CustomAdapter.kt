@@ -20,7 +20,6 @@ class CustomAdapter(val datalist: MutableList<DataVO>):RecyclerView.Adapter<Cust
         val binding = ItemMainBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         val customViewHolder = CustomViewHolder(binding)
 
-        //아이템 항목 이벤트 설정
         customViewHolder.itemView.setOnClickListener {
             val position: Int = customViewHolder.bindingAdapterPosition
             val dataVO = datalist.get(position)
@@ -31,7 +30,6 @@ class CustomAdapter(val datalist: MutableList<DataVO>):RecyclerView.Adapter<Cust
             ).show()
         }
 
-        //길게 누르면 삭제
         customViewHolder.itemView.setOnLongClickListener{
             val position: Int = customViewHolder.bindingAdapterPosition
             val dataVO = datalist.get(position)
@@ -40,6 +38,7 @@ class CustomAdapter(val datalist: MutableList<DataVO>):RecyclerView.Adapter<Cust
         }
         return customViewHolder
     }
+
     override fun onBindViewHolder(holder: CustomViewHolder, position: Int) {
         val binding = (holder as CustomViewHolder).binding
         val dataVO = datalist.get(position)
@@ -48,5 +47,6 @@ class CustomAdapter(val datalist: MutableList<DataVO>):RecyclerView.Adapter<Cust
         binding.tvbank.text = dataVO.bank
         binding.tvMoney.text = dataVO.money
     }
+
     class CustomViewHolder(val binding: ItemMainBinding):RecyclerView.ViewHolder(binding.root)
 }

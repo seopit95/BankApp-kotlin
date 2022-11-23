@@ -12,11 +12,9 @@ import com.example.chap11drawerlayout2.databinding.FragmentThreeBinding
 
 
 class ThreeFragment : Fragment() {
-//    lateinit var binding: FragmentThreeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(

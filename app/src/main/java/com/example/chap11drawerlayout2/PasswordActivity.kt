@@ -20,8 +20,8 @@ class PasswordActivity : AppCompatActivity() {
         val numCount  = object : CountDownTimer(11000,1000){
             override fun onTick(millisUntilFinished: Long) {
                 binding.tvTimer.text = (millisUntilFinished/1000).toString()
-
             }
+
             override fun onFinish() {
                 Toast.makeText(applicationContext, "시간초과로 비밀번호를 다시 입력해주시기 바랍니다.", Toast.LENGTH_SHORT).show()
                 supportFragmentManager
@@ -31,8 +31,5 @@ class PasswordActivity : AppCompatActivity() {
             }
         }
         numCount.start()
-
-
-
     }
 }
