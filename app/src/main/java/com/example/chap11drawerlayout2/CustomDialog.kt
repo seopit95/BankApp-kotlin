@@ -20,7 +20,6 @@ import com.example.chap11drawerlayout2.databinding.DialogCustomBinding
 import com.example.chap11drawerlayout2.databinding.FragmentTwoBinding
 import kotlinx.coroutines.NonDisposableHandle.parent
 
-
 class CustomDialog(val context: Context, val fragmentTwoBinding: FragmentTwoBinding) {
     val dialog = Dialog(context)
 
