@@ -9,7 +9,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chap11drawerlayout2.databinding.ActivityPasswordBinding
 
-
 class PasswordActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
